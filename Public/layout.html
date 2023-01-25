@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:-size="http://www.w3.org/1999/xhtml" xmlns:font-size="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <style>
+        /* this is a comment in css */
+        /* rules of our css */
+        /* styling using tag */
+        button{
+            background-color: black;
+            color: white ;
+            padding: 10px;
+            margin: 20px;
+        }
+    /*    styling using id */
+        #button1{
+            background-color: blue;
+            color: white ;
+            padding: 10px;
+            margin: 20px;
+        }
+    /*    styling using a class */
+        .myFirstClass{
+            background-color: yellow;
+            color: white ;
+            padding: 10px;
+            margin: 20px;
+        }
+
+
+    </style>
+<!--the 2 dots enable the link to get out of the public file-->
+</head>
+<body>
+<!--inline CSS: This when you write css using the style attribute-->
+<!--black-->
+    <p style="color: black"  ; font-size:  20px;>Hello world</p>
+<!--green-->
+    <p style="color: green">Hello world 2</p>
+<!--blue-->
+    <p style="color: blue">Hello world 3</p>
+<!-- these are styles using internal css-->
+<!--styled using ids-->
+<button id="button1">Click me</button>
+<!--using class attribute-->
+<button class="myFirstClass">click me 2</button>
+<button class="myFirstClass">click me 3</button>
+<!--styled using tags-->
+<button>click me 4</button>
+<button>click me 5</button>
+
+<p class="myFirstClass">I am using a class </p>
+
+<!--circle image-->
+<img src="../Assets/beauty.jpeg" height="200" width="200" id="image1"/>
+<!--thumbnails-->
+<img src="../Assets/beauty.jpeg" height="200" width="200" class="image2"/>
+<img src="../Assets/beauty.jpeg" height="200" width="200" class="image2"/>
+<!--position at the center and make opacity/ blur-->
+<img src="../Assets/beauty.jpeg" height="200" width="200"/>
+<img src="../Assets/beauty.jpeg" height="200" width="200"/>
+</body>
+</html>
