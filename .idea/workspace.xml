@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584daaa9-7765-4d50-b4d4-54fce61ac4f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Public/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Public/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d56421b6-103d-41af-a973-23f7a3887c53" />
+        <option name="url" value="https://github.com/mutish/Artpage.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,7 +77,9 @@
       <workItem from="1674543748899" duration="15000" />
       <workItem from="1674558861934" duration="11129000" />
       <workItem from="1674637351604" duration="751000" />
-      <workItem from="1674646961078" duration="6115000" />
+      <workItem from="1674646961078" duration="7111000" />
+      <workItem from="1674713841543" duration="281000" />
+      <workItem from="1674714936256" duration="804000" />
     </task>
     <servers />
   </component>
