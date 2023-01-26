@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="584daaa9-7765-4d50-b4d4-54fce61ac4f5" name="Changes" comment="">
+    <list default="true" id="584daaa9-7765-4d50-b4d4-54fce61ac4f5" name="Changes" comment="updated notes on layout tecniques">
+      <change afterPath="$PROJECT_DIR$/Public/layout2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Public/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,11 +79,23 @@
       <workItem from="1674637351604" duration="751000" />
       <workItem from="1674646961078" duration="7111000" />
       <workItem from="1674713841543" duration="281000" />
-      <workItem from="1674714936256" duration="804000" />
+      <workItem from="1674714936256" duration="2138000" />
     </task>
+    <task id="LOCAL-00001" summary="updated notes on layout tecniques">
+      <created>1674715791206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674715791206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated notes on layout tecniques" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated notes on layout tecniques" />
   </component>
 </project>
