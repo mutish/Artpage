@@ -29,3 +29,11 @@ selector : 1. the name of the html element: p , button
            2. use of the id attribute
            3. use of the class attribute: a class : a group of related things : groups html elements allowing them to access the same rules
                written once.
+
+
+
+
+               Creating a layout Page
+             1. Traditional way : css properties and table
+             2. CSS GRID
+             3. CSS FLEXBOX

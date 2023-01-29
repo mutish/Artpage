@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="584daaa9-7765-4d50-b4d4-54fce61ac4f5" name="Changes" comment="updated notes on layout tecniques">
-      <change afterPath="$PROJECT_DIR$/Public/layout2.html" afterDir="false" />
+    <list default="true" id="584daaa9-7765-4d50-b4d4-54fce61ac4f5" name="Changes" comment="new layout">
+      <change afterPath="$PROJECT_DIR$/Public/gridlayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/layouts/tablelayout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/layout2.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +65,15 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jmalonza\Desktop\Projects\Artpage" />
       <recent name="C:\Users\jmalonza\Desktop\Projects\Artpage\Public" />
     </key>
   </component>
@@ -79,7 +90,11 @@
       <workItem from="1674637351604" duration="751000" />
       <workItem from="1674646961078" duration="7111000" />
       <workItem from="1674713841543" duration="281000" />
-      <workItem from="1674714936256" duration="2138000" />
+      <workItem from="1674714936256" duration="2357000" />
+      <workItem from="1674717976540" duration="939000" />
+      <workItem from="1674732837695" duration="8760000" />
+      <workItem from="1674829630951" duration="522000" />
+      <workItem from="1674998104897" duration="1860000" />
     </task>
     <task id="LOCAL-00001" summary="updated notes on layout tecniques">
       <created>1674715791206</created>
@@ -88,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674715791206</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new layout">
+      <created>1674717162923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674717162923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated notes on layout tecniques" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated notes on layout tecniques" />
+    <MESSAGE value="new layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="new layout" />
   </component>
 </project>
