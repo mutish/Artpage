@@ -1,10 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+
+    <style>
+        #it1{
+            background-color: olive;
+            grid-area: it1;
+            padding:100px;
+            margin: 10px;
+        }
+        #it2{
+            background-color: blue;
+            grid-area: it2;
+            padding: 100px ;
+            margin: 10px;
+        }
+        #it3{
+            background-color: deeppink;
+            grid-area: it3;
+            padding: 90px;
+            margin: 10px;
+        }
+        #it4{
+            background-color: yellow;
+            grid-area: it4;
+            padding: 90px;
+            margin: 10px;
+        }
+        #it5{
+            background-color: maroon;
+            grid-area: it5;
+            padding: 100px;
+            margin: 10px;
+        }
+        .mygrid{
+            display: grid;
+            grid-template-areas:
+                 'it1 it1 it1 it1 it1 it1 it1'
+                 'it2 it2 it2 it2 it2 it2 it2'
+                 'it3 it3 it3 it4 it4 it5 it5'
+
+        ;
+        }
+        @media only screen and (max-width: 655px){
+            .mygrid{
+                display: grid;
+                grid-template-areas:
+                     'it1 it1 it1 it1 it1 it1 it1'
+                     'it1 it1 it1 it1 it1 it1 it1'
+                     'it1 it1 it1 it1 it1 it1 it1'
+                     'it2 it2 it2 it2 it2 it2 it2'
+                     'it2 it2 it2 it2 it2 it2 it2'
+                     'it2 it2 it2 it2 it2 it2 it2'
+                     'it3 it3 it3 it4 it4 it5 it5'
+                     'it3 it3 it3 it4 it4 it5 it5'
+
+            ;
+            }
+        }
+
+    </style>
+
+
+
+
+
+
+
+
+
 </head>
 <body>
+
+<div class="mygrid">
+
+    <div id="it1"><iframe width="560" height="315" src="https://www.youtube.com/embed/grW4TxI9qO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    <div id="it2"><img src="Assets/download.jpeg" height="323" width="156"/></div>
+    <div id="it3">
+        <p>
+            My name is Mutinda Stacey Nduku. <br>
+            I am 18 years old <br>
+            Swimming and Drawing are my hobbies. <br>
+            I am also passionate about technology and its various inventions. <br>
+            I aspire to venture into the world of tech and emerge to be the best. <br>
+        </p>
+    </div>
+    <div id="it4">
+
+                <ol>
+                  <p id="p1"><b>MOVIES ZONE</b></p>
+                <li> Megan</li>
+                <li> Countdown</li>
+                <li> Truth Or Dare</li>
+                <li> Annie</li>
+                    <li> Alita</li>
+                    </ol>
+        <ul>
+            <p id="p2"><b>FOOD ZONE</b></p>
+            <li> Chapati</li>
+            <li>Pilau</li>
+            <li>Githeri</li>
+            <li>Mukimo</li>
+            <li>Pizza</li>
+        </ul>
+
+
+
+    </div>
+    <div id="it5">
+
+        <p id="p3">My new attribute: Misc Symbols <br> </p>
+        <p style="font-size: 60px"> YIN YANG <br>
+          &#9775
+        </p>
+
+    </div>
+
+</div>
 
 </body>
 </html>

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="584daaa9-7765-4d50-b4d4-54fce61ac4f5" name="Changes" comment="new layout">
+    <list default="true" id="584daaa9-7765-4d50-b4d4-54fce61ac4f5" name="Changes" comment="grid layout">
+      <change afterPath="$PROJECT_DIR$/CSS/styles2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/gridlayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Public/gridlayout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <workItem from="1674717976540" duration="939000" />
       <workItem from="1674732837695" duration="8760000" />
       <workItem from="1674829630951" duration="522000" />
-      <workItem from="1674998104897" duration="2679000" />
+      <workItem from="1674998104897" duration="14405000" />
     </task>
     <task id="LOCAL-00001" summary="updated notes on layout tecniques">
       <created>1674715791206</created>
@@ -117,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675000309653</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="grid layout">
+      <created>1675000830523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675000830523</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated notes on layout tecniques" />
     <MESSAGE value="new layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="new layout" />
+    <MESSAGE value="grid layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="grid layout" />
   </component>
 </project>
