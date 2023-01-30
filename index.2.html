@@ -2,38 +2,139 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Art Homepage</title>
+<!--     internal css -->
+     <style>
+       #item1 {
+          background-color: red;
+          grid-area: item1;
+          padding: 10px;
+          margin: 10px;
+       }
+        #item2 {
+          background-color: black;
+          grid-area: item2;
+          padding: 10px;
+          margin: 10px;
+       }
+         #item3 {
+          background-color: green;
+           grid-area: item3;
+          padding: 10px;
+          margin: 10px;
+       }
+          .item4 {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+          background-color: yellow;
+              grid-area: item4;
+          padding: 10px;
+          margin: 10px;
+       }
+          .item4 > div{
+              padding: 20px;
+              background-color: maroon;
+              margin: 10px;
+          }
+       #item5 {
+          background-color: purple;
+           grid-area: item5;
+          padding: 10px;
+          margin: 10px;
+       }
+       #item6 {
+          background-color: darkblue;
+           grid-area: item6;
+          padding: 10px;
+          margin: 10px;
+       }
+       #item7 {
+           grid-area: item7;
+          padding: 10px;
+          margin: 10px;
+       }
+       .grid-container {
+         display: grid;
+         grid-template-areas:
+         'item1 item1 item2 item2 item2 item2 item2'
+         'item3 item4 item4 item4 item4 item4 item5'
+         'item6 item6 item6 item6 item6 item6 item6'
+         'item7 item7 item7 item7 item7 item7 item7'
+       ;
+       }
+
+
+       @media only screen and (max-width: 600px) {
+/*    inside this I can reference my css rules */
+           .grid-container {
+         display: grid;
+         grid-template-areas:
+         'item1 item2 item2 item2 item2 item2 item2'
+         'item3 item3 item3 item3 item3 item3 item3'
+         'item4 item4 item4 item4 item4 item4 item4'
+         'item5 item5 item5 item5 item5 item5 item5'
+         'item6 item6 item6 item6 item6 item6 item6'
+         'item7 item7 item7 item7 item7 item7 item7'
+       ;
+       }
+
+           .item4{
+               display: flex;
+               flex-direction: column;
+           }
+
+         }
+     </style>
+<!--    <link rel="stylesheet" href="CSS/styles.css">-->
+<!--    <link rel="stylesheet" href="bootsrap/css/bootstrap.css">-->
+<!--    <link rel="stylesheet" href="bootsrap/css/bootstrap.min.css">-->
+<!--    <link rel="stylesheet" href="bootsrap/css/bootstrap-grid.css">-->
+<!--    <link rel="stylesheet" href="bootsrap/css/bootstrap-grid.min.css">-->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
- #it1{
-            background-color: deeppink;
-             grid-area: it1;
-            padding: 10px;
-            margin: 10px;
-        }
-        #it2{
-            background-color: yellow;
-            grid-area: it2;
-            padding: 10px;
-            margin: 10px;
-        }
-        #it3{
-            background-color: purple;
-             grid-area: it3;
-            padding: 10px;
-            margin: 10px;
-        }
-        #it4{
-            background-color: red;
-             grid-area: it4;
-            padding: 10px;
-            margin: 10px;
-        }
-        #it5{
-            background-color: olive;
-             grid-area: it5;
-            padding: 10px;
-            margin: 10px;
-        }
+<!-- to define to grid we start with an overall container -->
+     <div class="grid-container">
+<!--       these are partions/sections of ur page depending on ur design -->
+<!--       color mapping : display my grid before adding content -->
+         <div id="item1">
+             <img src="Assets/beauty.jpeg" height="50" width="50"/>
+         </div>
+         <div id="item2">2</div>
+         <div id="item3">3</div>
+         <div class="item4">
+             <div id="flex1">1</div>
+             <div id="flex2">2</div>
+             <div id="flex3">3</div>
+             <div id="flex4">4</div>
+         </div>
+         <div id="item5">5</div>
+         <div id="item6">6</div>
+         <div id="item7">
+<form>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="message">Message:</label>
+    <textarea type="text" class="form-control" id="message" rows="10" cols="10"></textarea>
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
+
+
+
+         </div>
+     </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
