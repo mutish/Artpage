@@ -8,19 +8,16 @@
 <!--     internal css -->
      <style>
        #item1 {
-          background-color: red;
           grid-area: item1;
           padding: 10px;
           margin: 10px;
        }
         #item2 {
-          background-color: black;
           grid-area: item2;
           padding: 10px;
           margin: 10px;
        }
          #item3 {
-          background-color: green;
            grid-area: item3;
           padding: 10px;
           margin: 10px;
@@ -29,24 +26,20 @@
               display: flex;
               flex-direction: row;
               flex-wrap: wrap;
-          background-color: yellow;
               grid-area: item4;
           padding: 10px;
           margin: 10px;
        }
           .item4 > div{
               padding: 20px;
-              background-color: maroon;
               margin: 10px;
           }
        #item5 {
-          background-color: purple;
            grid-area: item5;
           padding: 10px;
           margin: 10px;
        }
        #item6 {
-          background-color: darkblue;
            grid-area: item6;
           padding: 10px;
           margin: 10px;
@@ -59,7 +52,7 @@
        .grid-container {
          display: grid;
          grid-template-areas:
-         'item1 item1 item2 item2 item2 item2 item2'
+         'item1 item2 item2 item2 item2 item2 item2'
          'item3 item4 item4 item4 item4 item4 item5'
          'item6 item6 item6 item6 item6 item6 item6'
          'item7 item7 item7 item7 item7 item7 item7'
@@ -88,13 +81,13 @@
 
          }
      </style>
-<!--    <link rel="stylesheet" href="CSS/styles.css">-->
-<!--    <link rel="stylesheet" href="bootsrap/css/bootstrap.css">-->
-<!--    <link rel="stylesheet" href="bootsrap/css/bootstrap.min.css">-->
-<!--    <link rel="stylesheet" href="bootsrap/css/bootstrap-grid.css">-->
-<!--    <link rel="stylesheet" href="bootsrap/css/bootstrap-grid.min.css">-->
+   <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="bootsrap/css/bootstrap.css">
+  <link rel="stylesheet" href="bootsrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootsrap/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="bootsrap/css/bootstrap-grid.min.css">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">-->
 </head>
 <body>
 <!-- to define to grid we start with an overall container -->
@@ -102,19 +95,143 @@
 <!--       these are partions/sections of ur page depending on ur design -->
 <!--       color mapping : display my grid before adding content -->
          <div id="item1">
-             <img src="Assets/beauty.jpeg" height="50" width="50"/>
+             <img src="Assets/beauty.jpeg" height="100" width="100"/>
          </div>
-         <div id="item2">2</div>
-         <div id="item3">3</div>
+         <div id="item2">
+             <!-- A grey horizontal navbar that becomes vertical on small screens -->
+<nav class="navbar navbar-expand-sm justify-content-center">
+
+  <div class="container-fluid">
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">Book ShowCase</a>
+
+        </li>
+    </ul>
+  </div>
+
+</nav>
+         </div>
+
+
+         <div id="item3">
+<nav class="navbar  justify-content-center">
+
+  <div class="container-fluid">
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#"><h4>Categories</h4></a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sports Art</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Paintings</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pencil drawings</a>
+      </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">Sculptures</a>
+
+        </li>
+    </ul>
+
+         </div>
+</nav>
+         </div>
+
          <div class="item4">
-             <div id="flex1">1</div>
-             <div id="flex2">2</div>
-             <div id="flex3">3</div>
-             <div id="flex4">4</div>
+             <div id="flex1">
+                 <div class="card" style="width:400px">
+
+                     <img src="Assets/beauty.jpeg" height="200" width="200"/>
+                     <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">the piece is a pencil sketch that displays the girl's nature</p>
+    <a href="#" class="btn btn-warning">Purchase Art</a>
+  </div>
+</div>
+             </div>
+             <div id="flex2">
+                  <div class="card" style="width:400px">
+
+                     <img src="Assets/beauty.jpeg" height="200" width="200"/>
+                     <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">the piece is a pencil sketch that displays the girl's nature</p>
+    <a href="#" class="btn btn-warning">Purchase Art</a>
+</div>
+             </div>
+                 </div>
+             <div id="flex3">
+                  <div class="card" style="width:400px">
+
+                     <img src="Assets/beauty.jpeg" height="200" width="200"/>
+                     <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">the piece is a pencil sketch that displays the girl's nature</p>
+    <a href="#" class="btn btn-warning">Purchase Art</a>
+</div>
+</div>
+             </div>
+
+
+             <div id="flex4">
+                 <div class="card" style="width:400px">
+
+                     <img src="Assets/beauty.jpeg" height="200" width="200"/>
+                     <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">the piece is a pencil sketch that displays the girl's nature</p>
+    <a href="#" class="btn btn-warning">Purchase Art</a>
+  </div>
+</div>
+             </div>
          </div>
-         <div id="item5">5</div>
-         <div id="item6">6</div>
+         <div id="item5">
+             <ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Your Inbox
+    <span class="badge bg-primary rounded-pill">12</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Your Cart
+    <span class="badge bg-primary rounded-pill">4</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Profile Settings
+    <span class="badge bg-primary rounded-pill">2</span>
+  </li>
+</ul>
+         </div>
+
+
+         <div id="item6">
+             <div class="alert alert-success">
+  Saves you money.
+</div>
+             <p>
+      Art is  a diverse range of human activity, and resulting product, that involves creative or imaginative talent expressive of technical proficiency, beauty, emotional power, or conceptual ideas.
+             </p>
+         </div>
          <div id="item7">
+             <div class="alert alert-info">
+  Contact us.
+</div>
 <form>
   <div class="form-group">
     <label for="email">Email address:</label>
@@ -133,8 +250,8 @@
 
 
          </div>
-     </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
-</html>
+
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>-->
+ </body>
+ </html>

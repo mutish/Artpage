@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584daaa9-7765-4d50-b4d4-54fce61ac4f5" name="Changes" comment="new images added">
-      <change afterPath="$PROJECT_DIR$/Public/layouts/flexlayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.2.html" afterDir="false" />
     </list>
@@ -94,6 +94,7 @@
       <workItem from="1674829630951" duration="522000" />
       <workItem from="1674998104897" duration="16764000" />
       <workItem from="1675077130381" duration="8187000" />
+      <workItem from="1675165269182" duration="5798000" />
     </task>
     <task id="LOCAL-00001" summary="updated notes on layout tecniques">
       <created>1674715791206</created>
