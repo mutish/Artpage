@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="584daaa9-7765-4d50-b4d4-54fce61ac4f5" name="Changes" comment="new images added">
-      <change afterPath="$PROJECT_DIR$/3index.html" afterDir="false" />
+    <list default="true" id="584daaa9-7765-4d50-b4d4-54fce61ac4f5" name="Changes" comment="more of bootsrap">
+      <change afterPath="$PROJECT_DIR$/Assets/Peakpx.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3index.html" beforeDir="false" afterPath="$PROJECT_DIR$/3index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,8 @@
       <workItem from="1674829630951" duration="522000" />
       <workItem from="1674998104897" duration="16764000" />
       <workItem from="1675077130381" duration="8187000" />
-      <workItem from="1675165269182" duration="5798000" />
+      <workItem from="1675165269182" duration="5987000" />
+      <workItem from="1675171577573" duration="5133000" />
     </task>
     <task id="LOCAL-00001" summary="updated notes on layout tecniques">
       <created>1674715791206</created>
@@ -152,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675019568732</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="more of bootsrap">
+      <created>1675171145055</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675171145055</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +175,7 @@
     <MESSAGE value="new layout" />
     <MESSAGE value="grid layout" />
     <MESSAGE value="new images added" />
-    <option name="LAST_COMMIT_MESSAGE" value="new images added" />
+    <MESSAGE value="more of bootsrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="more of bootsrap" />
   </component>
 </project>
