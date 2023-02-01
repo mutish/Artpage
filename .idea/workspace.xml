@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584daaa9-7765-4d50-b4d4-54fce61ac4f5" name="Changes" comment="more of bootsrap">
-      <change afterPath="$PROJECT_DIR$/Assets/Peakpx.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/layouts/artlandingbs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simplebootsrap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3index.html" beforeDir="false" afterPath="$PROJECT_DIR$/3index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +99,10 @@
       <workItem from="1674998104897" duration="16764000" />
       <workItem from="1675077130381" duration="8187000" />
       <workItem from="1675165269182" duration="5987000" />
-      <workItem from="1675171577573" duration="5133000" />
+      <workItem from="1675171577573" duration="5374000" />
+      <workItem from="1675240924903" duration="8984000" />
+      <workItem from="1675260735894" duration="3028000" />
+      <workItem from="1675264059624" duration="2681000" />
     </task>
     <task id="LOCAL-00001" summary="updated notes on layout tecniques">
       <created>1674715791206</created>
@@ -163,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675171145055</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="more of bootsrap">
+      <created>1675176978664</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675176978664</updated>
+    </task>
+    <task id="LOCAL-00011" summary="more of bootsrap">
+      <created>1675176999801</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675176999801</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
